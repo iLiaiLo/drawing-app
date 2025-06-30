@@ -1,0 +1,98 @@
+body {
+  background: lightskyblue;
+}
+
+#canva {
+  cursor: crosshair;
+  position: absolute;
+  top: 14%;
+  left: 50%;
+  margin-left: -700px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.menu {
+  text-align: center;
+  width: 100%;
+  min-width: 960px;
+  height: auto;
+  background: rgb(69, 165, 198);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu .content {
+  padding: 15px;
+  font-size: 20px;
+  width: 16.66%;
+  color: white;
+  height: 100px;
+}
+.menu .content:hover {
+  background: rgb(77, 77, 220);
+  cursor: pointer;
+}
+
+.dropdown {
+  width: 16.66%;
+  height: 100px;
+}
+.dropbtn {
+  padding: 40px;
+  font-size: 20px;
+  color: white;
+  height: 100px;
+}
+
+.menu .dropdown:hover {
+  background-color: rgb(77, 77, 220);
+  cursor: pointer;
+}
+.cont {
+  width: 300px;
+  z-index: 1;
+  opacity: 0.9;
+  position: absolute;
+  display: none;
+  background: rgb(106, 116, 120);
+}
+
+.cont .item {
+  display: block;
+  font-size: 18px;
+  padding: 25px 0 25px 0;
+}
+.dropdown:hover .cont {
+  display: block;
+  cursor: pointer;
+}
+.cont .item:hover {
+  background: darkcyan;
+}
+input:hover {
+  cursor: pointer;
+}
+
+#download-image {
+  position: absolute;
+  top: 95%;
+  width: 150px;
+  left: 60px;
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  background-color: #566574;
+  color: white;
+  border-radius: 5px;
+}
+
+#download-image:hover {
+  background-color: #3b4a5c;
+  cursor: pointer;
+}
