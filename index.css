@@ -80,7 +80,7 @@ input:hover {
 
 #download-image {
   position: absolute;
-  top: 95%;
+  bottom: 5px;
   width: 150px;
   left: 60px;
   padding: 5px;
